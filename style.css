@@ -295,3 +295,59 @@ body{
     height: 450px;
 }
 
+/* footer styles */
+.footer-container{
+    width: 1320px;
+    height: 400px;
+    background-color: rgb(7, 2, 17);
+    margin: 0 auto;
+    
+}
+
+.contact{
+    display: flex;
+    color: #ffff;
+}
+
+.footer-first-section{
+    display: flex;
+    color: #ffff;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.hr{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.social-icons{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-end-text{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    height: 30px;
+}
+.hr{
+    margin-bottom: 50px;
+    width: 90%;
+    margin: 0 au;
+    
+}
