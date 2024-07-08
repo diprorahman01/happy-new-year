@@ -249,3 +249,49 @@ body{
     width: 305.69px;
     height: 305.69px;
 }
+
+/* portfolio styles */
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+.portfolio-text-content h5{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 4px;
+}
+
+.portfolio-text-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+    margin-bottom: 50px;
+}
+
+.portfolio-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.item{
+    width: 424px;
+    height: 450px;
+}
+
